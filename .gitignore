@@ -1,0 +1,18 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+*.pyd
+*.exp
+*.lib
+*.obj
+*.c
+*.pyx
+*.bin
+
+*.dat
+*.npy
+scratch
+
+*.approval*
+**/neural_simulation*.py
+**/output.prof
