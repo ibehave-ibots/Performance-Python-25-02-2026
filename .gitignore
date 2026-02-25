@@ -16,3 +16,5 @@ scratch
 *.approval*
 **/neural_simulation*.py
 **/output.prof
+
+**/*.hide.*
