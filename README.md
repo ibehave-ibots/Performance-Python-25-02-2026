@@ -114,7 +114,6 @@ On the second day, we examine how to reduce interpreter overhead, use parallelis
 | Compiled Acceleration           | Reducing overhead      | Using `numexpr` and Numba to move computation into compiled code and avoid Python-external overhead.                             |
 | Parallel Numba                  | Controlled parallelism | Introducing `@njit(parallel=True)` and `prange`, including diagnostics and practical limitations.                                |
 | GPUs with CuPy & PyTorch        | Device acceleration    | Working with GPU arrays, understanding transfer costs, batching strategies, and kernel size considerations.                      |
-| JAX                             | Computational graphs   | Introducing staged computation and multi-device execution through computational graph construction.                              |
 
 **Core principle:** Acceleration requires structural clarity.
 
@@ -130,7 +129,6 @@ The final day shifts attention to storage, IO, and computational planning.
 | NumPy Storage       | Format trade-offs      | Comparing `np.save`, compressed formats, and `np.memmap`, and evaluating compression vs throughput trade-offs.  |
 | xarray              | Structured data access | Working with labeled datasets, partial reads from HDF5-based formats, and structured analysis.                  |
 | Chunking Strategies | Planning computation   | Understanding lazy execution, chunk sizing, and how chunk structure affects rolling and aggregation operations. |
-| Zarr                | Scalable storage       | Introducing Zarr for HPC, cloud workflows, streaming systems, and distributed analysis.                         |
 
 **Core principle:** Storage layout determines analytical speed.
 
